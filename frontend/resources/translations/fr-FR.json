@@ -47,12 +47,24 @@
     "unmatchedPasswordError": "Les deux mots de passe ne sont pas identiques",
     "syncPromptMessage": "La synchronisation des données peut prendre un certain temps. Merci de ne pas fermer pas cette page.",
     "or": "OU",
+    "signInWithGoogle": "Se connecter avec Google",
+    "signInWithGithub": "Se connecter avec Github",
+    "signInWithDiscord": "Se connecter avec Discord",
+    "signUpWithGoogle": "S'inscrire avec Google",
+    "signUpWithGithub": "S'inscrire avec Github",
+    "signUpWithDiscord": "S'inscrire avec Discord",
     "signInWith": "Se connecter avec :",
     "signInWithEmail": "Se connecter via e-mail",
+    "signInWithMagicLink": "Se connecter avec un Lien Magique",
+    "signUpWithMagicLink": "S'inscrire avec Lien Magique",
     "pleaseInputYourEmail": "Veuillez entrer votre adresse e-mail",
+    "settings": "Paramètres",
     "magicLinkSent": "Lien magique envoyé à votre email, veuillez vérifier votre boîte de réception",
     "invalidEmail": "S'il vous plaît, mettez une adresse email valide",
+    "alreadyHaveAnAccount": "Vous avez déjà un compte ?",
     "logIn": "Connexion",
+    "generalError": "Un problème est survenu. Veuillez réessayer plus tard.",
+    "limitRateError": "Pour des raisons de sécurité, vous ne pouvez demander un lien magique que toutes les 60 secondes",
     "LogInWithGoogle": "Se connecter avec Google",
     "LogInWithGithub": "Se connecter avec Github",
     "LogInWithDiscord": "Se connecter avec Discord",
@@ -215,7 +227,8 @@
     "dragRow": "Appuyez longuement pour réorganiser la ligne",
     "viewDataBase": "Voir la base de données",
     "referencePage": "Ce {nom} est référencé",
-    "addBlockBelow": "Ajouter un bloc ci-dessous"
+    "addBlockBelow": "Ajouter un bloc ci-dessous",
+    "genSummary": "Générer un résumé"
   },
   "sideBar": {
     "closeSidebar": "Fermer le menu latéral",
@@ -250,6 +263,7 @@
   },
   "button": {
     "ok": "OK",
+    "confirm": "Confirmer",
     "done": "Fait",
     "cancel": "Annuler",
     "signIn": "Se connecter",
@@ -316,13 +330,28 @@
     "accountPage": {
       "menuLabel": "Mon compte",
       "title": "Mon compte",
+      "description": "Personnalisez votre profil, gérez la sécurité de votre compte et les clés API IA, ou connectez vous à votre compte.",
+      "general": {
+        "title": "Nom du compte et photo de profil",
+        "changeProfilePicture": "Modifier la photo de profil"
+      },
       "email": {
         "title": "Email",
         "actions": {
           "change": "Modifier l'email"
         }
       },
+      "keys": {
+        "title": "Clés API IA",
+        "openAILabel": "Clé API OpenAI",
+        "openAITooltip": "La clé API OpenAI à utiliser pour les modèles d'IA",
+        "openAIHint": "Entrez votre clé API OpenAI",
+        "stabilityAILabel": "Clé API de stabilité",
+        "stabilityAITooltip": "La clé API de stabilité à utiliser pour les modèles d'IA",
+        "stabilityAIHint": "Entrez votre clé API de stabilité"
+      },
       "login": {
+        "title": "Connexion au compte",
         "loginLabel": "Connexion",
         "logoutLabel": "Déconnexion"
       }
